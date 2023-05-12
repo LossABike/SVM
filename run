@@ -1,0 +1,112 @@
+Indexing all the files in dataset /content/drive/MyDrive/mlfw/train
+done.
+
+
+Indexing all the files in dataset /content/drive/MyDrive/mlfw/test
+done.
+
+
+Training Naive Bayes classifier for text
+
+Testing Naive Bayes classifier for text
+
+Done in : 0.019467592239379883
+
+
+Training Linear SVM classifier for image
+
+Testing Linear SVM classifier for image
+
+Done in : 0.6700060367584229
+
+
+Indexing search data...
+bags_hobo_1
+bags_clutch_100
+bags_hobo_100
+bags_hobo_300
+bags_clutch_300
+bags_clutch_1
+bags_clutch_800
+bags_hobo_700
+bags_hobo_900
+bags_clutch_700
+bags_clutch_500
+bags_hobo_500
+bags_clutch_200
+bags_hobo_200
+bags_hobo_400
+bags_clutch_400
+bags_clutch_900
+bags_clutch_600
+bags_hobo_800
+bags_hobo_600
+womens_pumps_200
+womens_pumps_500
+womens_flats_900
+womens_pumps_700
+womens_pumps_300
+womens_pumps_400
+womens_flats_800
+womens_pumps_600
+womens_pumps_100
+womens_pumps_1
+womens_flats_1
+womens_flats_700
+womens_pumps_900
+womens_flats_200
+womens_flats_500
+womens_flats_600
+womens_flats_100
+womens_pumps_800
+womens_flats_300
+womens_flats_400
+Indexed files for given data set in  0.010387659072875977  seconds
+             file_id  text_class0  ...  combined_class1  final_class
+0        bags_hobo_1     0.900265  ...         0.054786            1
+1    bags_clutch_100     0.659040  ...         0.219653            1
+2      bags_hobo_100     0.822573  ...         0.072426            1
+3      bags_hobo_300     0.886587  ...         0.061433            1
+4    bags_clutch_300     0.612739  ...         0.264549            1
+5      bags_clutch_1     0.817942  ...         0.240035            1
+6    bags_clutch_800     0.503499  ...         0.479266            1
+7      bags_hobo_700     0.822925  ...         0.079325            1
+8      bags_hobo_900     0.707373  ...         0.128136            1
+9    bags_clutch_700     0.587300  ...         0.341705            1
+10   bags_clutch_500     0.538781  ...         0.250196            1
+11     bags_hobo_500     0.700243  ...         0.139683            1
+12   bags_clutch_200     0.489596  ...         0.221500            1
+13     bags_hobo_200     0.803401  ...         0.086796            1
+14     bags_hobo_400     0.759817  ...         0.137212            1
+15   bags_clutch_400     0.576335  ...         0.196124            1
+16   bags_clutch_900     0.503499  ...         0.283141            1
+17   bags_clutch_600     0.612534  ...         0.250967            1
+18     bags_hobo_800     0.797566  ...         0.083785            1
+19     bags_hobo_600     0.759817  ...         0.128212            1
+20  womens_pumps_200     0.395851  ...         0.782306            2
+21  womens_pumps_500     0.397364  ...         0.809716            2
+22  womens_flats_900     0.381206  ...         0.543002            2
+23  womens_pumps_700     0.322771  ...         0.841964            2
+24  womens_pumps_300     0.424371  ...         0.776111            2
+25  womens_pumps_400     0.299031  ...         0.821729            2
+26  womens_flats_800     0.498448  ...         0.753528            2
+27  womens_pumps_600     0.323952  ...         0.677330            2
+28  womens_pumps_100     0.408339  ...         0.717269            2
+29    womens_pumps_1     0.404244  ...         0.567139            2
+30    womens_flats_1     0.386913  ...         0.760534            2
+31  womens_flats_700     0.346328  ...         0.766922            2
+32  womens_pumps_900     0.281902  ...         0.868426            2
+33  womens_flats_200     0.429860  ...         0.637279            2
+34  womens_flats_500     0.374267  ...         0.830776            2
+35  womens_flats_600     0.235353  ...         0.866210            2
+36  womens_flats_100     0.421252  ...         0.814093            2
+37  womens_pumps_800     0.293519  ...         0.801988            2
+38  womens_flats_300     0.378671  ...         0.833181            2
+39  womens_flats_400     0.319918  ...         0.844828            2
+
+[40 rows x 8 columns]
+Classification accuracy = 1.000000
+
+2023-05-11 08:34:07.805666: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-11 08:34:09.511802: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
